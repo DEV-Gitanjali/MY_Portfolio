@@ -3,7 +3,7 @@ import {
   FaUser,
   FaFolderOpen,
   FaEnvelopeOpen,
-  FaBriefcase,
+  // FaBriefcase,
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
@@ -114,12 +114,13 @@ export const personalInfo = [
     description: 'https://github.com/DEV-Gitanjali',
   },
 
-
-  {
-    id: 10,
-    title: 'Langages : ',
-    description: 'Hindi', 'English',
-  },
+  
+{
+  id: 2,
+   no: '50+',
+  title: 'Completed  HandsOn <br> Projects',
+      
+},
 ];
 
 export const stats = [
@@ -131,7 +132,7 @@ export const stats = [
   {
     id: 2,
     no: '50+',
-    title: 'Completed  HandsOn <br /> Projects',
+    title: 'Completed  HandsOn <br/> Projects',
   },
 
 ];
