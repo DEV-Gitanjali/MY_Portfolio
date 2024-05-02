@@ -6,12 +6,12 @@
      /* color mode hsl(hue , saturation , lightness) */
 
      --first-color : hsl(271 , 76% , 53%);
-     --text-color:hsl(0, 0% , 40%);
-     --body-color:hsl(0,0% , 50%);
+     --title-color:hsl(0, 0% , 40%);
+     --text-color:hsl(0,0% , 50%);
      --body-color:hsl(0,0%,100%);
      --container-color:hsl(0,0%,93%);
-     --text-white:#fff;
      --border-color:hsl(0,0%, 87%);
+     --text-white:#fff;
 
      /* font & typography */
      --body-font:"Poppins", sans-serif;
