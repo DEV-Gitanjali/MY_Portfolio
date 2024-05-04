@@ -1,9 +1,13 @@
-import React from 'react'
+// import React from 'react'
 import Info from '../../components/Info';
 import Stats from '../../components/Stats';
 import { FaDownload } from 'react-icons/fa6';
 import CV from  '../../assets/Gita-CV.pdf';
 import './about.css';
+import Skills from '../../components/Skills';
+import {resume}  from '../../data';
+import ResumeItem from '../../components/ResumeItem';
+
 
 const About = () => {
   return (
@@ -24,7 +28,7 @@ const About = () => {
               </ul>
 
 
-              <a href={CV}  download= " "  className='button' > Download CV {'  '}<span className='button__icon'><FaDownload/></span></a>
+              <a href={CV}  download= " "  className='button' > Download Cv {'  '}<span className='button__icon'><FaDownload/></span></a>
           </div>
               
               <div className='stats grid'>
@@ -39,6 +43,36 @@ const About = () => {
 
         </div>
       </section>
+
+               <hr/>        
+      <section className='skills'>
+        <h3 className='section__subtitle subtitle__center'>My Skills</h3>
+
+        <div className="skills__container grid">
+          <Skills/>
+        </div>
+      </section>
+         <hr />
+      <section className='resume'>
+         <h3 className='section__subtitle subtitle__center education'>
+          Education
+         </h3>
+         <div className="resume__container  grid">
+            <div className="resume__data">
+              {resume.map((val)=>{
+                if(val.category === 'education'){
+                  return <ResumeItem  key={val.id} {...val}/>
+                }
+
+                
+              })}
+            </div>
+         </div>
+      </section>
+
+            <hr/>
+
+           
     </main>
   )
 }

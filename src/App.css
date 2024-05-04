@@ -57,6 +57,7 @@
     body{
         background-color: var(--body-color);
         color: var(--text-color);
+        
 
        }
 
@@ -89,9 +90,14 @@
        }
 
        /* reusable css */
+       .container{
+        max-width: 1140px;
+        margin-inline:auto ;
+        padding-inline: 15px;
+       }
        .grid{
         display: grid;
-        margin-top:20px;
+        
 
        }
 
@@ -99,6 +105,16 @@
     padding-block: 70px;
   }
 
+  .section__title{
+    font-size: var(--big-font-size);
+    font-weight: var(--weight-800);
+    color: var(--title-color);
+    text-align: center;
+    margin-bottom: 70px;
+  }
+.section__title span{
+  color: var(--first-color);
+}
 .button{
   display: inline-block;
   color: var(--title-color);
@@ -147,21 +163,17 @@
   line-height: 60px;
 }
 
-.section__title{
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  color: var(--title-color);
-  font-size: var(--h2-font-size);
-  font-weight: var(--weight-800);
-  margin-top:-10px;
-}
 
  .info__item{
   
-  margin:10px ;
+  margin:5px ;
   gap: 1; 
+
 } 
+
+.about__container{
+  margin-left: 80px;
+}
 
 
 

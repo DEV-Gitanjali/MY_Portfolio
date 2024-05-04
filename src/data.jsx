@@ -107,17 +107,7 @@ export const personalInfo = [
     title: 'Languages: ',
     description: 'Odia , Hindi , English',
   },
-  {
-    id: 8,
-    title: 'LinkedIn : ',
-    description: 'https://www.linkedin.com/in/gitanjali-jena-337376229/',
-  } ,
-
-  {
-    id: 9,
-    title: 'Github: ',
-    description: 'https://github.com/DEV-Gitanjali',
-  },
+ 
 
   
 ];
@@ -144,7 +134,7 @@ export const resume = [
   },
 
   {
-    id: 5,
+    id: 2,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2019',
@@ -153,10 +143,10 @@ export const resume = [
   },
 
   {
-    id: 6,
+    id: 3,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2009',
+    year: '2017',
     title: 'Bachelor Degree <span> Durga Charan High School </span>',
     
   },
@@ -171,13 +161,13 @@ export const skills = [
 
   {
     id: 2,
-    title: 'Javascript',
+    title: 'Css',
     percentage: '75',
   },
 
   {
     id: 3,
-    title: 'Css',
+    title: 'JavaScript',
     percentage: '70',
   },
 
@@ -195,7 +185,7 @@ export const skills = [
 
   {
     id: 6,
-    title: 'Jquery',
+    title: 'Redux Toolkit',
     percentage: '50',
   },
 
