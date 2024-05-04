@@ -84,6 +84,7 @@
     right: 30px;
     align-items: center;
     display: flex;
+    margin-right: 50px;
     /* background-color: var( --first-color ); */
 
   }
@@ -101,29 +102,31 @@
 }
 
 .nav__icon{
-    font-size: 20px;
+    font-size: 30px;
     margin-inline:auto ;
 }
 
 .nav__name{
-     position: absolute;
-     top: 0;
-     right:0 ;
-     background-color: var(--first-color);
-     height: 160%;
-     line-height: 30px;
-     padding-inline: 30px 25px;
-     border-radius: 50px;
-     font-size: var(--small-font-size);
-     color:var(--text-white) ;
-     opacity: 0;
-     visibility: hidden;
-     z-index: -1;
-     transition: all 0.3s ease;
+    position: absolute;
+    top: 0;
+    right:0 ;
+    background-color: var(--first-color);
+    height: 100%;
+    line-height: 30px;
+    padding-inline: 30px 25px;
+    border-radius: 30px;
+    font-size: var(--small-font-size);
+    color:var(--text-white) ;
+    opacity: 0;
+    visibility: hidden;
+    z-index: -1;
+    transition: all 0.3s ease;
+    
+    
 }
 
 .nav__link:hover .nav__name{
-    right: 27px;
+    right: 16px;
     color: var(--text-white);
     opacity: 1;
     visibility: visible;

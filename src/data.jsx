@@ -103,6 +103,11 @@ export const personalInfo = [
   },
 
   {
+    id: 7,
+    title: 'Languages: ',
+    description: 'Odia , Hindi , English',
+  },
+  {
     id: 8,
     title: 'LinkedIn : ',
     description: 'https://www.linkedin.com/in/gitanjali-jena-337376229/',
@@ -115,22 +120,12 @@ export const personalInfo = [
   },
 
   
-{
-  id: 2,
-   no: '50+',
-  title: 'Completed  HandsOn <br> Projects',
-      
-},
 ];
 
 export const stats = [
-  {
-    id: 1,
-    title: 'Fresher',
-  },
 
   {
-    id: 2,
+    id: 1,
     no: '50+',
     title: 'Completed  HandsOn <br/> Projects',
   },
