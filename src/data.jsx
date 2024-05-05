@@ -1,13 +1,13 @@
 import {
   FaHome,
-  FaUser,
+  FaEye,
   FaFolderOpen,
   FaEnvelopeOpen,
   // FaBriefcase,
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiEye, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
@@ -38,7 +38,7 @@ export const links = [
   {
     id: 2,
     name: 'About',
-    icon: <FaUser className='nav__icon' />,
+    icon: <FiEye className='nav__icon'/>,
     path: '/about',
   },
 
@@ -214,20 +214,23 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Photo',
       },
+
       {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        icon: <FiEye />,
+        title: 'live demo :', 
+        desc: 'https://spontaneous-trifle-c62858.netlify.app/',
       },
+
+      
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html , TailWind Css , React.js , Redux.toolkit',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/DEV-Gitanjali/Movie_App_React',
       },
     ],
   },
@@ -242,11 +245,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Website',
       },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
+      
       {
         icon: <FaCode />,
         title: 'Language : ',
@@ -270,11 +269,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Video',
       },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
+      
       {
         icon: <FaCode />,
         title: 'Language : ',
@@ -298,11 +293,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Video',
       },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
+     
       {
         icon: <FaCode />,
         title: 'Language : ',
@@ -325,10 +316,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Website',
       },
-      {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
+     
       {
         title: 'Language : ',
         desc: 'React JS, Node JS',
@@ -350,11 +338,7 @@ export const portfolio = [
         title: 'Project : ',
         desc: 'Photo',
       },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
+     
       {
         icon: <FaCode />,
         title: 'Language : ',
