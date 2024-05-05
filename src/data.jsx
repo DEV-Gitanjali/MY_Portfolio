@@ -1,13 +1,13 @@
 import {
   FaHome,
-  FaEye,
+  FaUser,
   FaFolderOpen,
   FaEnvelopeOpen,
   // FaBriefcase,
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiEye, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
@@ -38,7 +38,7 @@ export const links = [
   {
     id: 2,
     name: 'About',
-    icon: <FiEye className='nav__icon'/>,
+    icon: <FiUser className='nav__icon'/>,
     path: '/about',
   },
 
@@ -79,7 +79,7 @@ export const personalInfo = [
   {
     id: 4,
     title: 'Nationality : ',
-    description: 'Hindu',
+    description: 'Indian',
   },
 
 
@@ -216,7 +216,7 @@ export const portfolio = [
       },
 
       {
-        icon: <FiEye />,
+        icon: <FiUser />,
         title: 'live demo :', 
         desc: 'https://spontaneous-trifle-c62858.netlify.app/',
       },
