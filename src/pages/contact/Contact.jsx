@@ -22,7 +22,7 @@ const Contact = () => {
        </h2> 
 
        <div className="contact__container container grid">
-         <div className="content__data">
+         <div className="contact__data">
           <h3 className="contact__title">Don't be Shy!</h3>
 
           <p className="contact__description">
@@ -34,7 +34,7 @@ const Contact = () => {
               <FaEnvelopeOpen className='info__icon'/>
               <div>
                 <span className='info__title'>Mail me</span>
-                <span className="info__desc">jgitanjali592@gmail.com</span>
+                <h4 className="info__desc">jgitanjali592@gmail.com</h4>
               </div>
               </div>
 
@@ -42,16 +42,16 @@ const Contact = () => {
               <FaPhoneSquareAlt className='info__icon'/>
               <div>
                 <span className='info__title'>Call me</span>
-                <span className="info__desc">+919861548880</span>
+                <h4 className="info__desc">+919861548880</h4>
               </div>
             </div>
 
           </div>
            <div className="contact__socials">
-            <a href='https://www.linkedin.com/in/gitanjali-jena-337376229/'  className='connect__social-link'>
+            <a href='https://www.linkedin.com/in/gitanjali-jena-337376229/'  className='contact__social-link'>
               < FaLinkedin/>
             </a>
-            <a href='https://github.com/DEV-Gitanjali'  className='connect__social-link'>
+            <a href='https://github.com/DEV-Gitanjali'  className='contact__social-link'>
               < FaGithub/>
             </a>
            
@@ -73,12 +73,9 @@ const Contact = () => {
 
              <div className="form__input-div">
                <input type="text"  placeholder='Your Subject' className=" form__control" />
-               </div>
-               
-                
-               
-
+               </div>  
           </div>
+
            
           <div className="form__input-div">
                <textarea placeholder='Your Message' className='form__control textarea' ></textarea>
@@ -93,19 +90,9 @@ const Contact = () => {
           </button>
                  
        </form>
-               
-
-
-
-
-
-
-
        </div>
      </section>
 
-    )
-
-    }
+    ) }
 
 export default Contact;
