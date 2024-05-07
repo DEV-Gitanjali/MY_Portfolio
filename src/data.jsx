@@ -1,13 +1,14 @@
 import {
-  FaHome,
   FaUser,
+  FaHome,
+  FaEye, 
   FaFolderOpen,
   FaEnvelopeOpen,
   // FaBriefcase,
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { FiFileText, FiUser, FiEye ,FiExternalLink } from 'react-icons/fi';
 
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
@@ -212,11 +213,11 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'App',
       },
 
       {
-        icon: <FiUser />,
+        icon: <FiEye />,
         title: 'live demo :', 
         desc: 'https://spontaneous-trifle-c62858.netlify.app/',
       },
@@ -238,7 +239,7 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Obys Agency website Design',
     details: [
       {
         icon: <FiFileText />,
@@ -249,12 +250,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'Html5 , css3, javascript, GSAP',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://dev-gitanjali.github.io/Obys_Agency_Clone/',
       },
     ],
   },
@@ -262,23 +263,23 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Restaurant Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
       
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Html5.Css3,React.js',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://responsive-modern-restaurant-application.vercel.app/',
       },
     ],
   },
@@ -286,23 +287,23 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'AI Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Website',
       },
      
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Html5, Tailwind ,Css,React.js',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://responsive-morden-ui-ux-website.vercel.app/',
       },
     ],
   },
@@ -310,7 +311,7 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Bank App',
     details: [
       {
         title: 'Project : ',
@@ -319,11 +320,11 @@ export const portfolio = [
      
       {
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Html5, Tailwind Css,React.js',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://bank-modern-app-dun-rho.vercel.app/',
       },
     ],
   },
@@ -331,7 +332,7 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Movie seat Booking App',
     details: [
       {
         icon: <FiFileText />,
@@ -342,12 +343,12 @@ export const portfolio = [
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html5, css3, javascript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://dev-gitanjali.github.io/Movie_Seat_Booking/',
       },
     ],
   },

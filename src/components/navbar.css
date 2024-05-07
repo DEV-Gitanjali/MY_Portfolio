@@ -89,6 +89,10 @@
 
   }
 
+  .darktheme .nav__link{
+    border-color: hsl(0, 0% , 20%);
+  }
+
    .nav__item{
     margin-block: 20px;
    }
@@ -144,7 +148,7 @@
 
 }
     
+}
 
 
     
-}
