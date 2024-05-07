@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
          <Navbar />
-         <Themes/>
+         <Thegmes/>
         <Routes>
           
           <Route index element={<Home />} />
